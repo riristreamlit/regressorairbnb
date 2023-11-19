@@ -132,7 +132,7 @@ if st.button('Calculate Price!'):
     your_apartment_price = model.predict(your_apartment)
     your_apartment_price = your_apartment_price[0]
 
-    st.write(f"### Your AirBnB's daily rent price is predicted at: Rp {your_apartment_price:.3f}")
+    st.write(f"### Your AirBnB's daily rent price is predicted at: $ {int(your_apartment_price)}")
 
     # Segmentation based on predicted price
     if your_apartment_price < 250:
