@@ -131,6 +131,7 @@ your_apartment = pd.DataFrame({
 if st.button('Calculate Price!'):
     your_apartment_price = model.predict(your_apartment)
     your_apartment_price = your_apartment_price[0]
+    your_apartment_price = your_apartment_price/10
 
     st.write(f"### Your AirBnB's daily rent price is predicted at: $ {int(your_apartment_price)}")
 
