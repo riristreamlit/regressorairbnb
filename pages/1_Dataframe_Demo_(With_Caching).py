@@ -12,7 +12,7 @@ st.markdown("""🌐 Source Data [Kaggle](https://www.kaggle.com/datasets/arianaz
 def load_data(nrow):
 
     ### Simulating Loading a Large Dataset
-    data = pd.read_csv('dataset/Visualization_AirBnB.csv', nrows=nrow)
+    data = pd.read_csv('dataset/MachineLearning_AirBnb.csv', nrows=nrow)
 
     chunk_1 = data[0:200]
     chunk_2 = data[200:400]
