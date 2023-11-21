@@ -25,7 +25,7 @@ Data Visualization 📈: Conducting visualizations to gain insights from the dat
 
 It's crucial to note that almost all options within the script are interactive, requiring careful attention from the user. 🕵️‍♂️
 
-*Due to lagging issue, I only show 1000 from 100k row data* ⏳
+*It's a little bit lagging, please bear with it* ⏳
     """
 )
 
