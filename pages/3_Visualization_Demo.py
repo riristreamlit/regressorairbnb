@@ -29,7 +29,7 @@ It's crucial to note that almost all options within the script are interactive, 
     """
 )
 
-df = pd.read_csv('dataset/Visualization_AirBnB.csv')
+df = pd.read_csv('dataset/Visualization_AirBnB.csv', nrows=5000)
 
 @st.cache_data
 def show_data():
