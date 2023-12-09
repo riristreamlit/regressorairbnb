@@ -3,14 +3,13 @@ import pandas as pd
 
 results_df = pd.DataFrame({
     'Method': ['LinearRegressor'],
-    'RMSE TRAIN': [1.418237],
-    'RMSE TEST': [2.218282],
-    'MSE TRAIN': [2.011397],
-    'MSE TEST': [4.920773],
-    'R-squared TRAIN': [0.999982],
-    'R-squared TEST': [0.999955]
+    'RMSE TRAIN': [331.82],
+    'RMSE TEST': [331.09],
+    'MSE TRAIN': [110104.96],
+    'MSE TEST': [109626.44],
+    'R-squared TRAIN': [0.000203],
+    'R-squared TEST': [-0.000258]
 })
-
 
 
 data = {
@@ -60,7 +59,7 @@ st.markdown(
 
 🏡 The problem is that both hosts looking to rent out their homes and guests looking to purchase are unaware of the market for the properties they are offering.
 """)
-st.image('4.jpg', caption='Heatmap of All Variable', use_column_width=True)
+st.image('4.png', caption='Heatmap of All Variable', use_column_width=True)
 
 st.markdown(
     """
